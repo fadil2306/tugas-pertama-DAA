@@ -1,0 +1,19 @@
+Algortima:
+Input: Diketahui panjang jajar genjang = 5 dan tinggi jajar genjang = 3.
+Hitung luas: Menggunakan rumus 
+Luas=Panjang×Tinggi.
+Output: Hasil luas jajar genjang.
+
+pseudocode:
+Input: panjang = 5, tinggi = 3
+
+Function HitungLuasJajarGenjang(panjang, tinggi):
+    luas = panjang * tinggi
+    Return luas
+
+Begin
+    panjang = 5
+    tinggi = 3
+    luas = HitungLuasJajarGenjang(panjang, tinggi)
+    Output "Luas jajar genjang adalah", luas
+End
