@@ -1,0 +1,29 @@
+ALgoritma:
+Masukan Nilai KPK 3 dan 4.
+Masukan Nilai FPB dari KPK =1
+Gunakan rumus KPK:
+KPK(3,4)=3×4/1=12
+KPK(3,4)= 1
+3×4=12
+Tampilkan hasil: KPK dari 3 dan 4 adalah 12.
+
+Pseudecode:
+Input: a = 3, b = 4
+
+Function CariFPB(x, y):
+    While y ≠ 0:
+        temp = y
+        y = x % y
+        x = temp
+    Return x
+
+Function CariKPK(a, b):
+    FPB = CariFPB(a, b)
+    KPK = (a * b) / FPB
+    Return KPK
+
+Begin
+    a = 3
+    b = 4
+    KPK = CariKPK(a, b)
+    Output "KPK dari", a, "dan", b, "adalah", KPK
