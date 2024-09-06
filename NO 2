@@ -1,0 +1,23 @@
+Algoritma:
+Input: Diberikan dua buah: manggis di piring 1, pisang di piring 2, dan piring 3 kosong.
+Langkah-langkah:
+Pindahkan manggis dari piring 1 ke piring 3 (piring kosong).
+Pindahkan pisang dari piring 2 ke piring 1 (posisi manggis sebelumnya).
+Pindahkan manggis dari piring 3 ke piring 2 (posisi pisang sebelumnya).
+Output: Manggis dan pisang telah bertukar posisi; manggis berada di piring 2, dan pisang berada di piring 1.
+
+pseudocode
+Input: x = "Manggis" (di piring 1), y = "Pisang" (di piring 2), piring 3 kosong
+
+Function TukarPosisi(x, y):
+    Temp = x        # Pindahkan Manggis dari piring 1 ke piring 3
+    x = y           # Pindahkan Pisang dari piring 2 ke piring 1
+    y = Temp        # Pindahkan Manggis dari piring 3 ke piring 2
+    Return x, y     # x sekarang berisi Pisang, y sekarang berisi Manggis
+
+Begin
+    piring1 = "Manggis"
+    piring2 = "Pisang"
+    piring1, piring2 = TukarPosisi(piring1, piring2)
+    Output "Piring 1 sekarang berisi", piring1
+    Output "Piring 2 sekarang berisi", piring2
