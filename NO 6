@@ -1,0 +1,21 @@
+Input: Diketahui diameter kerucut = 5 dan tinggi kerucut = 4.
+Hitung jari-jari: 𝑟=Diameter/2
+Volume= 
+1/3×π×r2×t
+Output: Hasil volume kerucut.
+
+​pseudecode:
+Input: diameter = 5, tinggi = 4
+Const: pi = 3.14159
+
+Function HitungVolumeKerucut(diameter, tinggi):
+    jariJari = diameter / 2
+    volume = (1/3) * pi * jariJari^2 * tinggi
+    Return volume
+
+Begin
+    diameter = 5
+    tinggi = 4
+    volume = HitungVolumeKerucut(diameter, tinggi)
+    Output "Volume kerucut adalah", volume
+End
