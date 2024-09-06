@@ -1,0 +1,19 @@
+Algoritma:
+Input: Diketahui jari-jari tabung r=3 dan tinggi tabung t=5.
+Hitung volume: Menggunakan rumus Volume=π×r2×t.
+Output: Hasil volume tabung.
+
+pseudocode:
+Input: jariJari = 3, tinggi = 5
+Const: pi = 3.14159
+
+Function HitungVolumeTabung(jariJari, tinggi):
+    volume = pi * jariJari^2 * tinggi
+    Return volume
+
+Begin
+    jariJari = 3
+    tinggi = 5
+    volume = HitungVolumeTabung(jariJari, tinggi)
+    Output "Volume tabung adalah", volume
+End
