@@ -1,0 +1,18 @@
+Algoritma:
+1. Masukan Nilai Alas Dan Tinggi 
+2. Menghitung Nilai
+3. Menampilkan Hasil
+
+pseudocode:
+Input: alas = 25, tinggi = 30
+
+Function HitungLuasSegitiga(alas, tinggi):
+    luas = 0.5 * alas * tinggi
+    Return luas
+
+Begin
+    alas = 25
+    tinggi = 30
+    luas = HitungLuasSegitiga(alas, tinggi)
+    Output "Luas segitiga adalah", luas
+End
